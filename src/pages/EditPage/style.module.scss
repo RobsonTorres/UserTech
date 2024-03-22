@@ -1,0 +1,23 @@
+.container {
+    margin: 0 0.9375rem;
+}
+
+.divBox {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 0.625rem;
+    background: var(--gray-2);
+}
+
+.closeButton {
+    color: var(--gray-1);
+    font-size: 0.8125rem;
+    font-weight: 600;
+}
+
+h3 {
+    color: var(--gray-0);
+    font-size: 0.6875rem;
+    font-weight: 400;
+}

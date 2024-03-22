@@ -1,0 +1,30 @@
+.container {
+    margin: 0 0.9375rem;
+   
+}
+
+.divTecnologies {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+h2 {
+    color: var(--gray-0);
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+ul {
+    background: var(--gray-3);
+    padding: 0.9375rem 0.5rem 0.4375rem;
+    border-radius: 0.25rem;
+    margin-top: 0.9375rem;
+
+    @media (min-width: 700px) {
+        padding: 1.4375rem 1.4375rem;
+    }
+    
+}

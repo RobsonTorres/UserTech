@@ -1,0 +1,48 @@
+.divContainer {
+    
+    .container {
+        border-radius: 0.25rem;
+        background: var(--gray-4);
+        border: 0.25rem;
+        margin-bottom: 0.4375rem;
+        display: flex;
+        justify-content: space-between;
+
+        
+        .divBox {
+            display: flex;
+            line-height: 1.5625rem;
+            padding: 0.625rem;
+            
+        }
+        
+        span {
+            color: var(--gray-0);
+        }
+    
+        .paragraph {
+            color: var(--gray-1);
+            font-size: 0.75rem;
+            font-weight: 400;
+        }
+
+        .buttons{
+            display: flex;
+            align-items: flex-end;
+            gap: 0.3125rem;
+            margin: 0 0.625rem 0.625rem 0;
+            
+        }
+
+        button {
+            color: var(--white);
+        }
+
+        h2 {
+            display: flex;
+
+        }
+
+    }
+}
+

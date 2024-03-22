@@ -1,0 +1,84 @@
+.containerEditModal {
+    position: fixed;
+    inset: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .modalBox {
+        width: 100%;
+        height: 15.125rem;
+
+        @media(min-width: 325px) {
+            width: 20.3125rem;
+            height: 15.125rem;
+        }
+    }
+}
+
+.header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 0.625rem;
+    background: var(--gray-2);
+    margin: 1.25rem 0.9375rem 0;
+}
+
+.closeButton {
+    color: var(--gray-1);
+    font-size: 0.8125rem;
+    font-weight: 600;
+}
+
+h3 {
+    color: var(--gray-0);
+    font-size: 0.6875rem;
+    font-weight: 400;
+}
+
+.container {
+    background: var(--gray-3);
+    padding: 1.5625rem 0.9375rem;
+    margin: 0 0.9375rem;
+    display: flex;
+    flex-direction: column;
+
+
+    
+    .divBox {
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+    }
+    
+    .editButton {
+        color: var(--white);
+        background-color: var(--color-primary);
+        width: 100%;
+        height: 2.375rem;
+        border-radius: 0.2188rem;
+    }
+
+    .tecnologyInput {
+        color: var(--gray-0);
+        border: solid 0.125rem var(--gray-0);
+        background: var(--gray-2);
+        height: 2.5rem;
+        border-radius: 0.2188rem;
+        padding: 0.625rem;
+        width: 100%;
+    }
+    
+    .tecnologySelect {
+        color: var(--gray-0);
+        border: solid 0.125rem var(--gray-0);
+        background: var(--gray-2);
+        height: 2.5rem;
+        border-radius: 0.2188rem;
+        margin-bottom: 1.25rem;
+        width: 100%;
+    }
+}

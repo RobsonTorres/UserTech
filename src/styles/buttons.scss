@@ -1,0 +1,41 @@
+.enterButton {
+    color: var(--white);
+    background: var(--color-primary);
+    width: 100%;
+    height: 2.1875rem;
+    border-radius: 0.3125rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    margin-top: 5px;
+
+    &:hover {
+        background: var(--color-primary-focus);
+    }
+
+    &:disabled {
+        cursor: not-allowed;
+        opacity: .5;
+    }
+
+}
+
+.exitButton {
+    color: var(--gray-0);
+    font-size: 0.75rem;
+    font-weight: 500;
+    width: 100%;
+    height: 2.375rem;
+    background: var(--gray-1);
+    border-radius: 0.3125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+        color: var(--gray-4);
+    }
+
+    @media (min-width: 1200px) {
+        width: 100%;
+    }
+};
